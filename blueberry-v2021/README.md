@@ -2,20 +2,6 @@
 
 Run science experiments remotely or in the lab with the world's smallest and least expensive brain sensing wearable. You can use this web app on Linux, Mac, Windows, Android, iOS, and anything that supports Web Bluetooth.
 
-## Design Your Own Experiment
-
-You will probably only need to edit one file to add in your own experiment and data tags: **src/utils/ExperimentContent.js**
-
-This class is for anyone who wants to run their own experiments.
-
-Most of the Bluetooth connection, data saving, event saving, etc. has already been written, and you can just black box.
-
-All you need to do is modify the follow React component to whatever you like and it will populate the content area of the data collection Blueberry webpage.
-
-Then use the `this.props.saveEvent(eventNameString)` method to save any event you wish into the Blueberry datastream CSV.
-
-Checkout some of the example ExperimentContent.js programs. Simply copy a file from its location to ExperimentContent.js and it will populate the site (make sure you're running `npm run` to render the changes).
-
 ## Install
 
 1. Install npm.  
@@ -53,4 +39,4 @@ utils/bby_parse.js - this receives raw data fNIRS packets, parses them, aligns s
 
 ## Support
 
-cayden@blueberryx.com
+us@blueberryx.com
