@@ -1,4 +1,4 @@
-# Blueberry Science Data Collection Web App
+# Blueberry Data Collection Web App
 
 Run science experiments remotely or in the lab with the world's smallest and least expensive brain sensing wearable. You can use this web app on Linux, Mac, Windows, Android, iOS, and anything that supports Web Bluetooth.
 
